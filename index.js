@@ -31,12 +31,13 @@ function createAnimal(animalType) {
     var animal = {};
     animal = {'animaltype': animaltype, 'deadlyDevice': deadlyDevice};
   }
-  return deadlyAnimal
+  return deadlyAnimal()
 }
 
 var sharkCreator = createAnimal('Shark');
 
 var sharkWithFrickinLaserbeam = {
+  
   
 }
 
