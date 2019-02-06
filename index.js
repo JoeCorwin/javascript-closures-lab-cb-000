@@ -37,8 +37,8 @@ function createAnimal(animalType) {
 var sharkCreator = createAnimal('Shark');
 
 var sharkWithFrickinLaserbeam = {
-  
-  
+
+
 }
 
 //whatsForDinner = fatBastard('Kobe beef')
