@@ -25,13 +25,28 @@ function bumpCounter() {
 // * Add a variable called `sharkWithFrickinLaserbeam` that is a combination of a `'Shark'` and `'Laserbeam'`.
 // * Add a variable called `sharkWithFrickinCannon` that is a combination of a `'Shark'` and `'Cannon'`.
 
+// function createAnimal(animalType) {
+//
+//    function dangerousAnimals(deadlyDevice) {
+//     return {
+//       animalType: animalType,
+//       deadlyDevice: deadlyDevice
+//     }
+// }
+// return dangerousAnimals
+// }
+//
+//  var sharkCreator = createAnimal("Shark")
+// var sharkWithFrickinLaserbeam = sharkCreator("Laserbeam")
+// var sharkWithFrickinCannon = sharkCreator("Cannon")
 
 function createAnimal(animalType) {
-  function deadlyAnimal(deadlyDevice) {
-    var animal = {};
-    animal = {animaltype: animaltype, deadlyDevice: deadlyDevice};
+  function dangerousAnimals(deadlyDevice) {
+    return {animaltype: animaltype,
+            deadlyDevice: deadlyDevice
+          }
   }
-  return deadlyAnimal()
+  return dangerousAnimals
 }
 
 var sharkCreator = createAnimal('Shark');
@@ -41,6 +56,6 @@ var sharkWithFrickinLaserbeam = {
 
 }
 
-//whatsForDinner = fatBastard('Kobe beef')
+
 
 var sharkWithFrickinCannon
